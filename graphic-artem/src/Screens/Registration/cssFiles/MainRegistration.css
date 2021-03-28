@@ -1,0 +1,23 @@
+.card {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.37rem;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.custom-select{
+    max-width: 120px;
+}
+
+.col-md-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import UploadService from "../../services/upload-files.services";
+import NavBar from "../NavBar/Navbar";
 
 export default class UploadFiles extends Component {
   constructor(props) {
@@ -95,6 +96,7 @@ export default class UploadFiles extends Component {
 
     return (
       <div>
+        <NavBar/>
         {progressInfos &&
           progressInfos.map((progressInfo, index) => (
             <div className="mb-2" key={index}>
